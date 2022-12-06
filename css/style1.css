@@ -1,0 +1,84 @@
+
+.sec2_slide_wrap{
+  width: 1320px;
+  overflow: hidden;
+  height: 400px;
+  margin: 0 auto;
+  /* background-color: #475363; */
+  position: relative;
+}
+.sec2_img_wrap{
+  width: 2820px;
+  height: 489px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sec2_slide{
+  float: left;
+  margin-right: 146px;
+  width: 204px;
+  height: 327px;
+  
+}
+.sec2_slide .img{
+  display: block;
+  border: none;
+  width: 204px;
+  height: 265px;
+  /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); */
+  /* cursor: url(../images/icon_search.png),auto; */
+  cursor: pointer;
+  transition: all 0.5s;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.sec2_slide a:hover .img{
+  transform: scale(1.1,1.1);
+  
+}
+
+
+.sec2_slide:last-child{
+  margin-right: 0;
+}
+.sec2_slide:nth-child(1),.sec2_slide:nth-child(3),.sec2_slide:nth-child(5),.sec2_slide:nth-child(7){
+  margin-top: 40px;
+}
+
+.hide_left{width: 300px; height: 580px; position: absolute;top: 0; left: 0; display: none;}
+.hide_right{width: 300px; height: 580px; position: absolute;top: 0; right: 0; display: none}
+
+
+.food{
+  background: url(images/main_con_name1.png);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  margin-top: 15px;
+  height: 47px; box-sizing: border-box;
+}
+
+.sec2_left{
+  width: 62px;
+  height: 68px;
+  background: url(../images/left_button.png) no-repeat center top;
+  cursor: pointer;
+  opacity: 0.7;
+  position: absolute;
+  left: 126px;
+  bottom: -350px;
+}
+.sec2_right{
+  width: 62px;
+  height: 68px;
+  background: url(../images/right_button.png) no-repeat center top;
+  cursor: pointer;
+  opacity: 0.7;
+  position: absolute;
+  right: 176px;
+  bottom: -350px;
+}
+.sec2_left:hover,.sec2_right:hover{
+  opacity: 1;
+}
+
