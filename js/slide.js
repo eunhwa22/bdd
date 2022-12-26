@@ -24,7 +24,7 @@ $(function(){
          disableOnInteraction: false,
        },
 
-       effect :'fade', //페이드인아웃
+      //  effect :'fade', //페이드인아웃
        loop: true,//슬라이드 무한반복
        navigation: {//화살표 버튼
          nextEl: '.swiper-button-next',
