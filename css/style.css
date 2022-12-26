@@ -69,7 +69,7 @@ body{font-family: 'RIDIBatang'; color: #333;}
 
 
 /*bubble*/
-.bubble{width: 100%; height: 458px; position: absolute; top: 600px; left: 0; z-index: 2;}
+.bubble{width: 100%; height: 458px; position: relative; top:-200px; left: 0; z-index: 2;}
 .bubble img{width: 100%;}
 
 .best_box{width: 100%; height: 300px;}
@@ -148,6 +148,10 @@ body{font-family: 'RIDIBatang'; color: #333;}
 /*banner*/
 
 .two{position: relative;}
+.gift_box{width: 298px; height: 63px;border-radius: 10px; background-color: rgb(0, 0, 0,0.1); position: absolute;top: 255px ;right:558px;opacity: 0;}
+.gift_box:hover{opacity: 1;}
+.class_box{width: 298px; height: 63px;border-radius: 10px; background-color: rgb(0, 0, 0,0.1); position: absolute;top: 331px ;right:513px;opacity: 0;}
+.class_box:hover{opacity: 1;}
 
 
 .banner2_box1{position: absolute;top: 81px; left: 124px; z-index: 4; animation: banner2_box1 3s linear infinite;}
@@ -203,10 +207,10 @@ body{font-family: 'RIDIBatang'; color: #333;}
 
 /*footer*/
 .footer{width: 100%; height: 395px; background: url(../images/footer_bubble.png); position: relative; margin-top: 100px;}
-.footer_inner{width: 310px; height: 140px; margin: 100px auto; font-size: 14px; text-align: center;}
+.footer_inner{width: 310px; height: 140px; margin: 100px auto; font-size: 14px; text-align: center; padding-top: 80px;}
 .footer_logo img{width: 166px;}
 .footer p{margin: 10px 0;}
-.icon li{float: left;margin-left: 17px;}
-.icon li a{display: inline-block; padding:10px;}
+.footer_icon li{float: left;margin-left: 17px;}
+.footer_icon li a{display: inline-block; padding:10px;}
 
-.top_icon{width: 60; height: 60px; position: absolute; bottom: 30px; right: 30px;}
+.top_icon{position:fixed; bottom:50px; right:50px; display:none;z-index: 99;}
